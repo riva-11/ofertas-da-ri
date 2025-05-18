@@ -6,46 +6,79 @@
   <title>Ofertas da Ri</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #fff0f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff8f0;
       color: #333;
       padding: 20px;
+      margin: 0;
       text-align: center;
     }
+
     h1 {
-      color: #d63384;
+      color: #FF6F00;
+      font-size: 2.5em;
+      margin-bottom: 10px;
     }
+
+    p {
+      font-size: 1.1em;
+      color: #555;
+    }
+
     .produtos {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
       gap: 30px;
-      margin-top: 30px;
+      margin-top: 40px;
     }
+
     .produto {
       background: white;
-      border-radius: 12px;
+      border-radius: 16px;
       padding: 20px;
       width: 300px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
+    .produto:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+    }
+
     .produto img {
       width: 100%;
       height: auto;
-      border-radius: 10px;
+      border-radius: 12px;
     }
+
+    .produto h2 {
+      font-size: 1.2em;
+      color: #222;
+      margin: 15px 0 10px;
+    }
+
     .produto a {
       display: inline-block;
-      margin-top: 15px;
-      background: #d63384;
+      margin-top: 10px;
+      background: #FF6F00;
       color: white;
-      padding: 10px 20px;
-      border-radius: 8px;
+      padding: 12px 20px;
+      border-radius: 10px;
       text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
     }
+
+    .produto a:hover {
+      background: #e65c00;
+    }
+
     footer {
-      margin-top: 40px;
+      margin-top: 50px;
       font-size: 14px;
+      color: #777;
     }
   </style>
 </head>
