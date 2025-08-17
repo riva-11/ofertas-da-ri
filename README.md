@@ -142,7 +142,7 @@
 <section class="price-box">
   <h2>Oferta Especial Shopee</h2>
   <p>De <del>R$ 369,99</del> por apenas:</p>
-  <h3>R$ 292,29</h3>
+  <h3>R$ 279,99</h3>
   <p>Parcele em até 6x sem juros | Frete grátis para todo o Brasil</p>
   <a href="https://s.shopee.com.br/6AYctCGsdV" target="_blank" class="btn-buy">Comprar Agora na Shopee</a>
 </section>
